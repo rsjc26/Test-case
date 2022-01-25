@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main()
+{   int a;
+
+    printf("Enter a number: " );
+    scanf("%d",&a);
+    if(a==0)
+    {
+        printf("not decided");
+    }
+    
+    else
+    {
+        if(a%2==0)
+        {
+            printf("Even number");
+        }
+        else
+        {
+            printf("Odd number");
+        }
+}
+}
